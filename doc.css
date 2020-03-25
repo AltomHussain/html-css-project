@@ -1,29 +1,80 @@
-body{
-background-color: rgb(102, 205, 170);
-line-hight: 80%;
-font-size: 20px;
+body {
+  background-color: rgb(102, 205, 170);
+  line-hight: 80%;
+  font-size: 20px;
 }
 
-
-img{
-width: 50%;
-height: 50%;
+img {
+  width: 75%;
+  height: 15%;
 }
 
-
-div{
-background-color: darkcyan;
-color: black
-}
 h2:first-child {
   background-color: yellow;
   margin-right: 39em;
 }
-#head{
-background-color: yellow;
-margin-right: 40.5em;
+.head {
+  background-color: yellow;
+  margin-right: 40.5em;
 }
-p:last-child {
-background-color: green;
-color: white;
+.he {
+  background-color: orchid;
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-shrink: 6;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  margin: 10%;
+  margin-right: 130px;
+
+  float: right;
+  position: absolute;
+  top: 90px;
+  right: -120px;
+}
+.sec1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.sec2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+article {
+  width: 20%;
+  margin: 5px;
+}
+h1 {
+  padding: 16px;
+  background: green;
+  color: pink;
+  position: sticky;
+  top: 0;
+}
+@media (max-width: 1000px) {
+  div {
+    background-color: orange;
+    font-style: monospace;
+    border-color: red;
+    border-width: 10px;
+    border-style: dotted;
+    padding: 15px;
+  }
+}
+
+footer {
+  background-color: darkcyan;
+  color: black;
+  margin-top: 50px;
 }
