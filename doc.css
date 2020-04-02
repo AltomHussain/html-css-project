@@ -53,8 +53,8 @@ img {
   padding: 5px;
   background-color: rgb(62, 206, 74);
   height: 50%;
-  max-width: 150px;
-  margin-top: 150px;
+  max-width: 200px;
+  margin-top: 200px;
 }
 @media screen and (max-width: 800px) {
   .aside-bar {
