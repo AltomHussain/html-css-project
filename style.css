@@ -13,6 +13,7 @@ article {
   border: solid red 5px;
   border-radius: 5px;
   padding: 10px;
+  line-height: 2em;
 }
 img {
   max-width: 500px;
@@ -29,10 +30,12 @@ h2:first-child {
 }
 aside {
   max-width: 500px;
-  line-height: 1.5em;
+  line-height: 2em;
+  border: dotted 5px purple;
+  padding: 10px;
 }
-@media screen and (max-width: 600px) {
-  article {
-    max-width: 600px;
-  }
+footer {
+  background-color: green;
+  color: white;
+  font-family: serif;
 }
