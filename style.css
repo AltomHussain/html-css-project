@@ -29,6 +29,7 @@ h2:first-child {
 }
 aside {
   max-width: 500px;
+  line-height: 1.5em;
 }
 @media screen and (max-width: 600px) {
   article {
